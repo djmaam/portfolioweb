@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#header .header{
+    background: url(background.png) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+  }
+.header .navbar {
+    background-color: transparent !important;
+  } 
+#content{
+    position: relative;
+    display: inline-block;
+    text-align: left;
+}    
+@font-face {
+    font-family: 'Icons';
+    src: URL('fonts/MaterialIcons-Regular.ttf') format('truetype');
+  }
+a:active{
+    color: black;
+}
