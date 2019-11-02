@@ -10,14 +10,45 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">   
     <title>Marcos Arrieta</title>
 </head>
-<body>    
+<body>
+  <div class="bg-sobremi">    
   <section id="header">
     <header class="header">
       <?php include_once("navbar.php"); ?>
     </header>
   </section>
-  <section id="sobre-mi">
-
+  </div>
+  <section id="content">
+    <div class="bg-sobremi">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="titlesb">Sobre mi</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <p>Lorem ipsum dolor sit, amet consectetur<br>
+            adipisicing elit. Ipsa rerum quis eligendi,<br>
+            quibusdam praesentium nesciunt, totam aliquam perspiciatis,<br>
+            dolorem iusto accusamus ipsam molestias voluptate<br>
+            exercitationem aliquid consequatur nobis ullam. Architecto.</p>          
+          </div>
+        </div>
+        <div class="row">  
+          <div class="col-md-3">
+            <div class="form-group">
+              <div class="button">
+                <a class="btn btn-dark btn-block btn-principal" href="portfolio.php" role="button">DESCARGAR CV</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      
+    </div>  
   </section>
   <section id="footer">
     <?php include_once("footer.php"); ?> 

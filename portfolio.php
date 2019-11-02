@@ -17,75 +17,73 @@
       <?php include_once("navbar.php"); ?>
     </header>
   </section>
-  <section id="portfolio">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="smtittle">
-            <h3>Mi Portfolio</h3>
+  <section id="content">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="smtittle">
+              <h3>Mi Portfolio</h3>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="smsubtittle">
+              <h5>Estos son algunos de los trabajos que hice durante mi carrera.</h5>
+            </div>
+          </div>
+        </div>
+      </div>  
+    <section id="cards">
+      <div class="container">          
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card rounded-0" style="width: 25rem;">
+              <img src="images/portfolio1.jpg" class="card-img-top rounded-0" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Gestion de Paquetes Turisticos</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maiores itaque atque aspernatur, quis consequuntur tempora eligendi autem optio quos eos molestias aperiam natus accusantium earum. Obcaecati eaque est perspiciatis.</p>
+                <a href="#" class="btn btn-dark">VER PROYECTO</a>
+              </div>  
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card rounded-0" style="width: 25rem;">
+              <img src="images/portfolio2.jpg" class="card-img-top rounded-0" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Gestion de Paquetes Turisticos</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maiores itaque atque aspernatur, quis consequuntur tempora eligendi autem optio quos eos molestias aperiam natus accusantium earum. Obcaecati eaque est perspiciatis.</p>
+                <a href="#" class="btn btn-dark">VER PROYECTO</a>
+              </div>  
+            </div>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-12">
-          <div class="smsubtittle">
-            <p>Estos son algunos de los trabajos que hice durante mi carrera.</p>
+      <div class="container">  
+        <div class="row">  
+          <div class="col-sm-6">
+            <div class="card rounded-0" style="width: 25rem;">
+              <img src="images/portfolio3.png" class="card-img-top rounded-0" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Gestion de Paquetes Turisticos</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maiores itaque atque aspernatur, quis consequuntur tempora eligendi autem optio quos eos molestias aperiam natus accusantium earum. Obcaecati eaque est perspiciatis.</p>
+                <a href="#" class="btn btn-dark">VER PROYECTO</a>
+              </div>  
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card rounded-0" style="width: 25rem;">
+              <img src="images/portfolio4.png" class="card-img-top rounded-0" alt="..." >
+              <div class="card-body">
+                <h5 class="card-title">Gestion de Paquetes Turisticos</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maiores itaque atque aspernatur, quis consequuntur tempora eligendi autem optio quos eos molestias aperiam natus accusantium earum. Obcaecati eaque est perspiciatis.</p>
+                <a href="#" class="btn btn-dark">VER PROYECTO</a>
+              </div>  
+            </div>
           </div>
         </div>
-      </div>
-    </div>  
+      </div> 
   </section>
-  <section id="cards">
-    <div class="container">          
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="card rounded-0" style="width: 25rem;">
-            <img src="images/portfolio1.jpg" class="card-img-top rounded-0" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Gestion de Paquetes Turisticos</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maiores itaque atque aspernatur, quis consequuntur tempora eligendi autem optio quos eos molestias aperiam natus accusantium earum. Obcaecati eaque est perspiciatis.</p>
-                <a href="#" class="btn btn-dark">VER PROYECTO</a>
-              </div>  
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="card rounded-0" style="width: 25rem;">
-            <img src="images/portfolio2.jpg" class="card-img-top rounded-0" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Gestion de Paquetes Turisticos</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maiores itaque atque aspernatur, quis consequuntur tempora eligendi autem optio quos eos molestias aperiam natus accusantium earum. Obcaecati eaque est perspiciatis.</p>
-                <a href="#" class="btn btn-dark">VER PROYECTO</a>
-              </div>  
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">  
-        <div class="col-sm-6">
-          <div class="card rounded-0" style="width: 25rem;">
-            <img src="images/portfolio3.png" class="card-img-top rounded-0" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Gestion de Paquetes Turisticos</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maiores itaque atque aspernatur, quis consequuntur tempora eligendi autem optio quos eos molestias aperiam natus accusantium earum. Obcaecati eaque est perspiciatis.</p>
-                <a href="#" class="btn btn-dark">VER PROYECTO</a>
-              </div>  
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="card rounded-0" style="width: 25rem;">
-            <img src="images/portfolio4.png" class="card-img-top rounded-0" alt="..." >
-              <div class="card-body">
-                <h5 class="card-title">Gestion de Paquetes Turisticos</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maiores itaque atque aspernatur, quis consequuntur tempora eligendi autem optio quos eos molestias aperiam natus accusantium earum. Obcaecati eaque est perspiciatis.</p>
-                <a href="#" class="btn btn-dark">VER PROYECTO</a>
-              </div>  
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
   </section>      
   </div>
   <section id="footer">
