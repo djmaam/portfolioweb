@@ -1,37 +1,72 @@
+/* ESTILO GENERAL */
+
 *{
   margin: 0px;
   padding: 0px;
 }
-body{
-  background: url(background.png) no-repeat center;
-  background-size: cover;
-  min-height: 100vh;
+.navbar-nav{
+flex: 1;
+margin: auto !important;
+display: flex;
+justify-content: space-around;
 }
-.header .navbar {
+.header .navbar{
   background-color: transparent !important;
 }
-.nav > li > a:hover{
-  background-color:#FCC;
+.header .navbar ul li{
+  margin: 10px;  
 }
-#content{
-  width: 100%;
-  text-align: justify;
-}   
+.header .navbar ul li a span{
+  border-bottom-style: solid;
+}
+.header .navbar ul li a:hover{
+  border-bottom-style: solid;
+}
+.btn, .btn:hover, .btn:active{
+  border-radius: 0%;  
+}
 #footer{
+  background-color: white;
   position: absolute;
-  width: 100%;
   bottom: 0;
-  background-color: whitesmoke;
-  
+  width: 100%;
 }
-h1{
-  
+#footer a{
+  color: black;
+  text-decoration-line: underline;
 }
-i{
+#footer i{
   color: black;
   font-size: 50px;
 }
 @font-face {
   font-family: 'Icons';
   src: URL('fonts/MaterialIcons-Regular.ttf') format('truetype');
+}
+
+/* ESTILO INDEX */
+
+.bg-index{  
+  background: url(background.png) no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+}
+.title h2{
+  margin: 3%;
+  font-size: 6rem;
+}
+.subtitle h5{
+  margin: 3%;
+  font-size: 2rem;
+}
+.btn-principal{
+  position: relative;
+  left: 50px;
+}
+   
+/* ESTILO SOBRE MI */
+
+/* ESTILO PORTFOLIO */
+.bg-portfolio{
+  background: #c8c8c8;
 }
